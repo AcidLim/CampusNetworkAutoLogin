@@ -1,1 +1,23 @@
-# CampusNetworkAutoLogin
+# CampusNetworkAutoLogin 校园网自动登录
+连接校园网后自动登录，程序常驻后台，支持系统托盘手动重连
+
+## 简要说明
+使用Python语言，使用前需要自行抓包获取数据，通过向校园网服务器发送http请求，模拟登录过程，从而可实现自动登录校园网连接服务。
+
+本仓库作为个人学习使用，同时也为备份，经测试脚本可用性为100%
+
+## 可用场景
+基于广州热点软件科技股份有限公司的哆点校园网登陆平台进行编写
+
+理论上使用该平台的校园网均可使用此脚本
+
+**其余平台未测试**
+
+## 需要使用到的软件包
+requests pystray pillow
+
+``` Terminal
+pip install requests pystray pillow
+```
+
+## 
