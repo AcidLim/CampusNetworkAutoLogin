@@ -5,6 +5,7 @@ import threading
 import sys
 import ctypes
 import subprocess
+import os
 from pystray import Icon, Menu, MenuItem
 from PIL import Image
 
@@ -18,6 +19,12 @@ CAMPUS_WIFI_NAMES = [""] # 填入校园网 WIFI 名称
 CHECK_INTERVAL = 3600 #检测时间间隔
 
 # ======================================================
+
+# 获取icon(AI编写，解决打包可能出现的问题)
+def get_resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 # 获取当前WIFI名称
 def get_current_wifi():
@@ -79,7 +86,8 @@ def check_network_loop():
 # ------------------------- 托盘菜单 -------------------------
 class CampusNetworkLoginTray:
     def __init__(self):
-        self.image = Image.open('connect.png')
+        icon_path = get_resource_path("connect.png")
+        self.image = Image.open(icon_path)
         self.icon = Icon(
             "校园网自动登录",
             self.image,
