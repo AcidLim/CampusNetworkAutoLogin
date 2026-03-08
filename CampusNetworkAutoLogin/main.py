@@ -98,11 +98,11 @@ class CampusNetworkLoginTray:
             )
         )
 
-    def on_reconnect(self):
+    def on_reconnect(self, icon, item):
         login()
 
 
-    def on_quit(self,icon):
+    def on_quit(self, icon, item):
         icon.stop()
         sys.exit(0)
 
