@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb3bad3a-d1f3-4c59-8710-5c1b89607f32" name="更改" comment="完善功能 编写自述文件，可能存在bug">
+    <list default="true" id="eb3bad3a-d1f3-4c59-8710-5c1b89607f32" name="更改" comment="Rename">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CampusNetworkAutoLogin/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CampusNetworkAutoLogin/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +92,29 @@
       <option name="project" value="LOCAL" />
       <updated>1772965102885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1772965675360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772965675360</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rename">
+      <option name="closed" value="true" />
+      <created>1772972193698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772972193698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完善功能 编写自述文件，可能存在bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善功能 编写自述文件，可能存在bug" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename" />
   </component>
 </project>

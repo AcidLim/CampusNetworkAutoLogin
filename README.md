@@ -32,7 +32,7 @@ pip install requests pystray pillow
 
 * 填入账号密码并选择运营商后不要点击登录，按F12打开调试工具，并切换到网络(Network)选项卡后再点击登录
 
-![](/image/Debug.png)
+![](/image/NetworkDebug.png)
 
 选择左侧第一项，保存右侧的请求URL
 
